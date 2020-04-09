@@ -1,0 +1,11 @@
+{
+  "name": "responsive-html-css",
+  "version": "1.0.0",
+  "description": "A HTML5 Website with a Responsive Layout",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jem Galeon",
+  "license": "ISC"
+}
