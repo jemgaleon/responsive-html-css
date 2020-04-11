@@ -1,9 +1,4 @@
-:root {
-  --color-orange: #e8491d;
-  --color-dark-orange: #a04329;
-  --color-light-gray: #f4f4f4;
-  --color-dark-gray: #35424a;
-}
+@import url(../css/style.css);
 
 html {
   font-size: 10px;
