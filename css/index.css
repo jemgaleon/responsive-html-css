@@ -31,11 +31,17 @@ a {
   text-decoration: none;
 }
 
-input {
+input,
+textarea {
   font-family: inherit;
   font-size: inherit;
   border: none;
   padding: 1rem;
+}
+
+textarea {
+  min-height: 8rem;
+  resize: vertical;
 }
 
 button {
@@ -54,6 +60,11 @@ button.orange {
 
 button.orange:hover {
   background: var(--color-dark-orange);
+}
+
+.dark {
+  color: var(--color-light-gray);
+  background: var(--color-dark-gray);
 }
 
 /* Header */
@@ -213,4 +224,39 @@ footer {
   background: var(--color-orange);
   padding: 2rem 0;
   text-align: center;
+}
+
+/* Common Page Layout */
+#main {
+  padding: 2rem 0;
+}
+
+@media (min-width: 768px) {
+  #main .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  #main-col {
+    width: 70%;
+    margin-right: 5rem;
+  }
+
+  #sidebar {
+    width: 30%;
+    padding: 2rem 1rem;
+  }
+}
+
+#main h1 {
+  font-size: 2.5rem;
+}
+
+#main h3 {
+  font-size: 2rem;
+}
+
+#main p {
+  margin-bottom: 2rem;
 }

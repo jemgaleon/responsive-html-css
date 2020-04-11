@@ -3,7 +3,123 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Test Web Design | Services</title>
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/services.css" />
   </head>
-  <body></body>
+  <body>
+    <header id="site-header">
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">Test</span> Web Design</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html" class="selected">Services</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="newsletter">
+      <div class="container">
+        <h1>Subscribe To Our Newsletter</h1>
+        <form>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter Email..."
+          />
+          <button type="submit" class="button orange">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="main">
+      <div class="container">
+        <article id="main-col">
+          <h1 id="page-title">Services</h1>
+          <ul>
+            <li>
+              <h3>Website Design</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea unde
+                enim repudiandae, doloremque, expedita optio vel facilis
+                excepturi voluptas eos recusandae sequi ut hic magni! Animi
+                sequi ratione eaque debitis.
+              </p>
+              <p>Pricing: $1,000 - $3,000</p>
+            </li>
+            <li>
+              <h3>Website Maintenance</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea unde
+                enim repudiandae, doloremque, expedita optio vel facilis
+                excepturi voluptas eos recusandae sequi ut hic magni! Animi
+                sequi ratione eaque debitis. Lorem ipsum, dolor sit amet
+                consectetur adipisicing elit. Omnis excepturi dolor perferendis
+                autem officiis adipisci nobis et totam porro debitis commodi
+                pariatur, assumenda cum est numquam in eaque provident mollitia.
+              </p>
+              <p>Pricing: $250 per month</p>
+            </li>
+            <li>
+              <h3>Website Hosting</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea unde
+                enim repudiandae, doloremque, expedita optio vel facilis
+                excepturi voluptas eos recusandae sequi ut hic magni! Animi
+                sequi ratione eaque debitis.
+              </p>
+              <p>Pricing: $25 per month</p>
+            </li>
+          </ul>
+        </article>
+        <aside id="sidebar" class="dark">
+          <h3>Get A Quote</h3>
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="email-quote">Email</label>
+              <input
+                type="text"
+                name="email-quote"
+                id="email-quote"
+                placeholder="Email Address"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                name="message"
+                id="message"
+                placeholder="Message..."
+                required
+              ></textarea>
+            </div>
+            <div class="form-group">
+              <button type="submit" class="orange">Send</button>
+            </div>
+          </form>
+        </aside>
+      </div>
+    </section>
+
+    <footer>
+      <p>Test Web Design &copy; Copyright 2020</p>
+    </footer>
+  </body>
 </html>

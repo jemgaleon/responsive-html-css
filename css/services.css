@@ -1,0 +1,20 @@
+/* Services */
+#sidebar {
+  padding: 2rem 1rem;
+}
+
+.form-group {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.form-group:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group button {
+  width: 100%;
+}
